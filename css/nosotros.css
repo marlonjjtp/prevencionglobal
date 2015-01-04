@@ -1,0 +1,65 @@
+/*nosotros*/
+
+div.nosotros {
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	padding: 5px;
+	position: relative;
+	margin-bottom: 20px;
+	font-size: 1.4em;
+}
+div.nosotros h2{
+	min-width: 22%;
+	width: 100%;
+	max-width: 175px;
+	margin-top: 20px;
+	padding: 25px;
+	color: #00A7E2;
+	display: block;
+	float: left;
+	clear: left;
+	font-size: 2.1em;
+}
+div.nosotros p{
+	min-width: 65%;
+	width: 100%;
+	max-width: 520px;
+	text-align: justify;
+	display: block;
+	float: left;
+}
+
+@media (max-width:800px){
+	div.nosotros > div {
+		width: 90%;
+		display:block;
+		margin: 0 auto;
+	}
+
+	div.nosotros h2{
+		padding: 0 10px 5px 0;
+		display:inline-block;
+		margin:0;
+		text-align: center;
+
+
+	}
+	div.nosotros p {
+		max-width:100%;
+		display:block;
+		float:none;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 400px){
+	div.nosotros h2 {
+		min-width:initial;
+		width:100%;
+		max-width:initial;
+		padding-bottom: 25px;
+		float:none;
+	}
+}
