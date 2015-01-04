@@ -104,6 +104,43 @@
 
 			</section>
 
+			<section id="menus-section" class="front-page container2-block clearfix">
+				<div class="content-block">
+					<div id="menu-nosotros" class="lista">
+						<div id="widget-menu-block">
+						<?php  
+
+							$args = array(
+
+								'theme_location' => 'primary'
+
+							);
+
+						?>
+						
+
+						<?php wp_nav_menu($args); ?>
+						</div>
+					</div>
+					<div id="menu-servicios" class="lista">
+						<div id="widget-menu-block">
+						<?php  
+
+							$args = array(
+
+								'theme_location' => 'primary'
+
+							);
+
+						?>
+						
+
+						<?php wp_nav_menu($args); ?>
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<section id="alianzas-section" class="alianzas front-page container2-block clearfix">
 
 				<div class="content-block clearfix">
