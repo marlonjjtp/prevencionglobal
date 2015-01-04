@@ -94,7 +94,13 @@
 
 
 			</section>
+			<section id="gesion-section" class="container2-block clearfix">
+				<div class="content-block clearfix">
+					<h2>Gestión Integral de Riesgos Laborales</h2>
+					<p>Somos una empresa enfocada en la prevención de riesgos laborales con un staff de profesionales con más de 10 años de experiencia, altamente calificados en temas de calidad y mejora de procesos, seguridad y salud ocupacional, medio ambiente, responsabilidad social y otras disciplinas en diversas actividades económicas dentro y fuera del país; desde empresas en los sectores de minería, construcción, pesca e hidrocarburos; así como también en empresas de servicios como bancos, supermercados, salud, catering; entre otros.</p>
 
+				</div>
+			</section>
 
 			</section>
 
