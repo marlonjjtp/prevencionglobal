@@ -1100,7 +1100,7 @@ div.content-block {
 }
 
 /**menus */
-section#menus-section {
+section#menus-section >div {
 	background: #0465AB;
 	margin-bottom: 25px;
 }
