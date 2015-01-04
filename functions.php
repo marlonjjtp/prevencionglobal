@@ -113,12 +113,12 @@ function pageStyles(){
 		wp_enqueue_style ( 'pagecss', get_stylesheet_directory_uri().'/css/page.css','', '1', 'all' );
 		wp_enqueue_style ( 'asidecss', get_stylesheet_directory_uri().'/css/aside.css','', '1', 'all' );
 	}
-	if (is_page(15)) {
+	if (is_page(15) or is_page(326)) {
 		wp_enqueue_style ( 'contactocss', get_stylesheet_directory_uri().'/css/contacto.css','', '1', 'all' );
 	}
 
 	if (is_page(27)){
-		wp_enqueue_style ( 'contactocss', get_stylesheet_directory_uri().'/css/nosotros.css','', '1', 'all' );	
+		wp_enqueue_style ( 'nosotroscss', get_stylesheet_directory_uri().'/css/nosotros.css','', '1', 'all' );	
 	}
 }
 
