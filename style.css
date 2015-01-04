@@ -1110,6 +1110,7 @@ div.lista-container {
 	display:inline-block;
 	margin: 0 auto;
 	vertical-align: top;
+	padding-bottom: 10px;
 	
 	font-size: 1.1em;
 	color: white;
@@ -1118,7 +1119,7 @@ div.lista {
 	width: 300px;
 	display:block;
 	
-	padding: 15px 0 0;
+	padding: 15px 0 ;
 	margin: 0;
 }
 div.lista h3 {	
