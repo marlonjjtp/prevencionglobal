@@ -106,13 +106,14 @@
 
 			<section id="menus-section" class="front-page container2-block clearfix">
 				<div class="content-block">
-					<div id="menu-nosotros" class="lista">
-						<div id="widget-menu-block">
+					<div class="lista-container">
+						<div id="menu-nosotros" class="lista">
+							<h3>Nosotros</h3>
 						<?php  
 
 							$args = array(
 
-								'theme_location' => 'primary'
+								'theme_location' => 'nosotros-menu'
 
 							);
 
@@ -122,13 +123,14 @@
 						<?php wp_nav_menu($args); ?>
 						</div>
 					</div>
-					<div id="menu-servicios" class="lista">
-						<div id="widget-menu-block">
+					<div class="lista-container">
+						<div id="menu-servicios" class="lista">
+							<h3>Servicios</h3>
 						<?php  
 
 							$args = array(
 
-								'theme_location' => 'primary'
+								'theme_location' => 'servicios-menu'
 
 							);
 

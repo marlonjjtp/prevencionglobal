@@ -275,7 +275,7 @@ section#gestion-section.front-page p {
 	display:block;
 	margin: 0 auto;
 	max-width: 980px;
-	width:100%;
+	width:90%;
 	text-align: justify;
 	font-size: 1.4em;
 	padding-bottom: 20px;
@@ -1099,7 +1099,53 @@ div.content-block {
 
 }
 
+/**menus */
+section#menus-section {
+	background: #0465AB;
+	margin-bottom: 25px;
+}
+div.lista-container {
+	width: 315px;
+	max-height: 350px;
+	display:inline-block;
+	margin: 0 auto;
+	vertical-align: top;
+	
+	font-size: 1.1em;
+	color: white;
+}
+div.lista {
+	width: 300px;
+	display:block;
+	
+	padding: 15px 0 0;
+	margin: 0;
+}
+div.lista h3 {	
+	text-align:left;
+	padding: 0 15px 0;
+}
 
+div.lista ul{
+	
+	padding: 0 15px 0;
+	 
+}
+div.lista ul li {
+	list-style-type: none;
+	text-align:left;
+	margin: 5px 0;
+
+}
+div.lista ul li a,
+div.lista ul li a:visited {
+	vertical-align: center;
+	text-decoration: none;
+	color: white;
+}
+div.lista ul li a:hover {
+	font-weight: bold;
+}
 
 @media screen and (max-width:1080px) {
 
@@ -1260,8 +1306,7 @@ p.sub-text{
 
 
 }
-@media screen and (max-width: 980px) {
-
+@media screen and (max-width: 800px) {
 	section#gestion-section.front-page p,
 	#alianzas1,
 	#alianzas2 {
@@ -1273,7 +1318,7 @@ p.sub-text{
 	}
 
 	#alianzas2 {
-		max-width: 500px;
+		max-width: 400px;
 	}
 }
 
