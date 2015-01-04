@@ -145,20 +145,6 @@
 
 			</section>
 
-			<section id="clientes-section" class="clientes front-page container2-block">
-
-				<div class="content-block clearfix">
-
-					<h2 class="front-page">Empresas Asesoradas</h2>
-
-					<?php dynamic_sidebar("w_clientes"); ?>
-
-				</div>
-
-			</section>
-
-
-
 		</div>
 
 		<footer class="site-footer front-page container-block" >
