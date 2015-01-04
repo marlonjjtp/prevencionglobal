@@ -9,6 +9,8 @@
 	//navitaion menus
 	register_nav_menus(array(
 		'primary'=> __('Primary Menu'),
+		'nosotros-menu' => ('Menu Nosotros'),
+		'servicios-menu' => ('Menu Servicios'),
 		'footer' => __('Footer Menu'),
 
 	));
