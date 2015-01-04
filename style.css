@@ -261,7 +261,26 @@ section.front-page div.w_clientes-item img{
 
 
 
+/**section*/
 
+section#gestion-section.front-page h2 {
+	width:100%;
+	padding: 0;
+	margin: 0 auto 15px;
+	padding: 15px;;
+	background: #0465AB;
+	color: white;
+}
+section#gestion-section.front-page p {
+	display:block;
+	margin: 0 auto;
+	max-width: 600px;
+	width:100%;
+	text-align: justify;
+	padding-right: 15px;
+	font-size: 1.4em;
+	padding-bottom: 20px;
+}
 
 /*seccion alianzas*/
 
@@ -296,6 +315,8 @@ section.front-page div.w_alianzas-item {
 	text-align: left;
 
 	font-size: 1.4em;
+
+	padding-bottom: 20px;
 
 }
 
