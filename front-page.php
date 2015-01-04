@@ -96,31 +96,6 @@
 			</section>
 
 
-
-			<section id="servicios-section" class="servicios front-page container2-block clearfix">
-
-				<div id="servicios-fila1" class="content-block clearfix"> 
-
-				<?php dynamic_sidebar("w_servicios-1"); ?>
-
-				<?php dynamic_sidebar("w_servicios-2"); ?>
-
-				</div>
-
-			</section>
-
-<!-- 			<section class="servicios front-page container2-block clearfix">
-
-				<div id="servicios-fila2" class="content-block clearfix">
-
-				<?php dynamic_sidebar("w_servicios-2"); ?>
-
-				</div>
-
-			</section> -->
-
-				
-
 			</section>
 
 			<section id="alianzas-section" class="alianzas front-page container2-block clearfix">
