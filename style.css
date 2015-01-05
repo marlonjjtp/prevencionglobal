@@ -1106,6 +1106,7 @@ div.content-block {
 section#menus-section >div {
 	background: #0465AB;
 	margin-bottom: 25px;
+	padding: 20px 0;
 }
 div.lista-container {
 	width: 315px;
@@ -1121,12 +1122,13 @@ div.lista {
 	width: 300px;
 	display:block;
 	
-	padding: 15px 0 0;
+	padding: 0;
 	margin: 0;
 }
 div.lista h3 {	
 	text-align:left;
 	padding: 0 15px 0;
+	font-size: 1.4em;
 }
 
 div.lista ul{
