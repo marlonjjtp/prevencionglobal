@@ -109,7 +109,7 @@ function themeprefix_responsive_menujs() {
 			</script>";
 }
 function pageStyles(){
-	if (is_front_page(){
+	if (is_front_page()){
 		wp_enqueue_style ( 'frontpagecss', get_stylesheet_directory_uri().'/css/front-page.css','', '1', 'all' );
 	}
 	if ((is_page() && !is_page_template()) or is_home() or is_single()){
