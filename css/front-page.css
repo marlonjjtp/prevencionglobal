@@ -1,0 +1,222 @@
+
+
+/*slider*/
+
+
+
+#iniciopjc-slideshow {
+
+	padding: 10px;
+
+	border: 1px solid #0465AB;
+
+}
+
+/**slider*/
+
+#meteor-slideshowfrontpage-slideshow {
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+}
+
+section.front-page div.slides {
+
+	display: block;
+
+	position: relative;
+
+	margin: 0px;
+
+	padding: 5px;
+
+	border: 1px solid;
+
+	width: 600px;
+
+	height: 300px;
+
+}
+
+section.front-page div.slides img.slide {
+
+	text-align: center;
+
+	width: 600px;
+
+	height: 300px;
+
+}
+
+
+
+/**menus section*/
+section#menus-section >div {
+	background: #0465AB;
+	margin-bottom: 25px;
+	padding: 20px 0;
+}
+div.lista-container {
+	width: 315px;
+	max-height: 350px;
+	display:inline-block;
+	margin: 0 auto;
+	vertical-align: top;
+	
+	font-size: 1.1em;
+	color: white;
+}
+div.lista {
+	width: 300px;
+	display:block;
+	
+	padding: 0;
+	margin: 0;
+}
+div.lista h3 {	
+	text-align:left;
+	padding: 0 15px 0;
+	font-size: 1.4em;
+}
+
+div.lista ul{
+	
+	padding: 0 15px 0;
+	 
+}
+div.lista ul li {
+	list-style-type: none;
+	text-align:left;
+	margin: 5px 0;
+
+}
+div.lista ul li a,
+div.lista ul li a:visited {
+	vertical-align: center;
+	text-decoration: none;
+	color: white;
+}
+div.lista ul li a:hover {
+	font-weight: bold;
+}
+
+/**section*/
+
+section#gestion-section.front-page h2 {
+	width:100%;
+	padding: 0;
+	margin: 0 auto 15px;
+	padding: 15px 0;
+	background: #0465AB;
+	color: white;
+}
+section#gestion-section.front-page p {
+	display:block;
+	margin: 0 auto;
+	max-width: 980px;
+	width:90%;
+	text-align: justify;
+	font-size: 1.4em;
+	padding-bottom: 20px;
+}
+
+/*seccion alianzas*/
+
+section.front-page div.w_alianzas-item {
+
+	display: inline-block;
+
+	margin: 5px 10px 20px 10px;
+
+}
+
+
+
+
+section#alianzas-section div.content-block {
+	padding-bottom: 25px;
+}
+
+#alianzas1 {
+
+	max-width: 600px;
+	width:100%;
+	/*min-width: 320px;*/
+
+	display: inline-block;
+
+	position: relative;
+
+	vertical-align: top;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	text-align: left;
+
+	font-size: 1.4em;
+
+	padding-bottom: 20px;
+
+}
+
+#alianzas1 div.w_alianzas1-item {
+
+	text-align: justify;
+
+	padding-right: 15px;
+
+}
+
+
+
+#alianzas2 {
+
+	max-width: 360px;
+	width: 100%;
+	
+	/*min-width: 320px;*/
+
+	display: inline-block;
+
+	position: relative;
+
+	vertical-align: top;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	text-align: left;
+
+	font-size: 1.4em;
+
+}
+
+#alianzas2 li {
+
+	list-style-type: none;
+
+}
+
+#alianzas2 li:before {
+
+    content: "■  ";
+
+    color: #6D6E71; 
+
+}
+
+#alianzas2 ul {
+	
+	margin:0;
+	padding: 25px;
+	border: 7px solid #6D6E71;
+	color: #6D6E71;
+	vertical-align: top;
+	font-weight: bold;
+
+}

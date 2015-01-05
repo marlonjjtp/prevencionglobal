@@ -12,11 +12,11 @@ div#form-container{
 	margin: 0 auto;
 }
 
-form.contacto > div {
+form > div {
 	text-align: left;
 }
 
-form.contacto {
+form {
 	display: block;
 	position: relative;
 	max-width: 380px;
@@ -33,14 +33,14 @@ form.contacto {
 	margin-right: auto;
 	border: 1px solid gray;
 }
-form.contacto > div {
+form > div {
 	width: 75%;
 	margin: 0 auto;
 }
-form.contacto > div > div {
+form > div > div {
 	width: 100%
 }
-form.contacto textarea {
+form textarea {
 
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -53,12 +53,12 @@ form.contacto textarea {
 	box-sizing: border-box;
 	width:100%;
 }
-form.contacto label{
+form label{
 
 	font-weight: bold;
 }
-form.contacto input,
-form.contacto textarea{
+form input,
+form textarea{
 	width: 100%;
 	padding: 7px;
 	border-top: 1px solid #ccc;
@@ -67,7 +67,7 @@ form.contacto textarea{
 	  border-bottom: 1px solid #eee;
 }
 
-form.contacto .boton {
+form input[type="submit"] {
 	display: block;
 	margin-top: 30px;
 	margin-left: auto;

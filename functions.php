@@ -114,12 +114,46 @@ function pageStyles(){
 		wp_enqueue_style ( 'asidecss', get_stylesheet_directory_uri().'/css/aside.css','', '1', 'all' );
 	}
 	if (is_page(15) or is_page(326)) {
+		wp_enqueue_style ( 'pagecss', get_stylesheet_directory_uri().'/css/page.css','', '1', 'all' );
+		wp_enqueue_style ( 'asidecss', get_stylesheet_directory_uri().'/css/aside.css','', '1', 'all' );
 		wp_enqueue_style ( 'contactocss', get_stylesheet_directory_uri().'/css/contacto.css','', '1', 'all' );
 	}
 
 	if (is_page(27)){
 		wp_enqueue_style ( 'nosotroscss', get_stylesheet_directory_uri().'/css/nosotros.css','', '1', 'all' );	
 	}
+}
+
+function contact_send_message() {
+
+    $contact_errors = false;
+
+    // get the posted data
+    $name = $_POST["name"];
+    $email_address = $_POST["email"];
+    //$phone_num = $_POST["phone"];
+    $message = $_POST["message"];
+
+    // write the email content
+    $header .= "MIME-Version: 1.0\n";
+    $header .= "Content-Type: text/html; charset=utf-8\n";
+    $header .= "From:" . $email_address;
+
+    $message = "Name: $name\n";
+    $message .= "Email Address: $email_address\n";
+    //$message .= "Telefon: $contact_phone\n";
+    $message .= "Message:\n$message";
+
+    $subject = "Zpráva z webu";
+    $subject = "=?utf-8?B?" . base64_encode($subject) . "?=";
+
+    $to = "marlonjjtp@gmail.com";
+
+    // send the email using wp_mail()
+    if( !wp_mail($to, $subject, $message, $header) ) {
+        $contact_errors = true;
+    }
+
 }
 
 		
@@ -129,7 +163,7 @@ add_action('wp_enqueue_scripts', 'themeprefix_scripts_styles');
 add_action('wp_enqueue_scripts','pageStyles');
 add_action ('genesis_after','themeprefix_responsive_menujs');
 
-
+add_action('contact_send_message', 'contact_send_message');
 
 add_custom_background();
  ?>
